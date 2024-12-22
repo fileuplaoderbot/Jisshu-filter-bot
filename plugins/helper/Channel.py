@@ -3,7 +3,7 @@ from pyrogram import Client, filters
 from pyrogram.types import *
 
 # Replace this with your own channel ID
-CHANNEL_ID = -1002452288568 
+CHANNEL_ID = -1002499126196 
 @Client.on_message(filters.channel & filters.media)
 async def add_button(client, message):
     if message.chat.id == CHANNEL_ID:
